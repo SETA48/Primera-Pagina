@@ -8,6 +8,37 @@
 </head>
 <body>
 
+<style>
+input#cedula {
+    border: 1px solid gray;
+    border-radius: 8px;
+    background: skyblue;
+    font-size: 13px;
+    font-style: italic;
+    color: gray;
+
+}
+    input#contrasena {
+    border-radius: 8px;
+    border: 1px blue solid;
+    width: 118px;
+    background: #2ac536;
+    color: white;
+}
+div#todomicontenido {
+    border: solid 1px gray;
+    border-radius: 10px;
+    height: 139px;
+    width: 291px;
+    padding: 18px;
+    background: #3b59b1;
+    left: 212px;
+    position: relative;
+    top: 54px;
+}
+
+</style>
+
 <h1>Hola soy un titulo</h1>
 <h2>Hola soy un subtitulo</h2>
 
@@ -16,7 +47,45 @@
 <div>Hola mundo</div>
 <span>Hola mundo</span>
 
-<input type="text">
+<div id="todomicontenido"> 
+
+    Input tipo texto
+    <input type="text" id="cedula" class="caja"> 
+    <br>
+    password
+    <input type="password" id="contrasena">
+    <br>
+    fecha
+    <input type="date" id="fechanac">
+    <br>
+    Numero
+    <input type="number">
+
+    boton
+    <input type="button" value="Guardar" class="caja">
+    <br>
+
+    <select id="tipodocumento">
+        <option value="cc">cedula</option>
+        <option value="ce">cedula de extranjeria</option>
+        <option value="rc">registro civil</option>
+        <option value="ti">tarjeta de identidad</option>
+    </select>
+
+
+
+    <select id="hijos">
+        <option value="1">uno</option>
+        <option value="2">dos</option>
+        <option value="1">tres</option>
+    </select>
+
+
+    <button>Guardar2</button>
+
+</div>
+
+
 
 
 </body>
