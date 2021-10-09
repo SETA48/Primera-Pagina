@@ -1,0 +1,36 @@
+input#cedula {
+    border: 1px solid gray;
+    border-radius: 8px;
+    background: skyblue;
+    font-size: 13px;
+    font-style: italic;
+    color: gray;
+
+}
+    input#contrasena {
+    border-radius: 8px;
+    border: 1px blue solid;
+    width: 118px;
+    background: #2ac536;
+    color: white;
+}
+div#todomicontenido {
+    border: solid 1px gray;
+    border-radius: 10px;
+    height: 139px;
+    width: 291px;
+    padding: 18px;
+    background: #3b59b1;
+    left: 212px;
+    position: relative;
+    top: 54px;
+}
+
+img#milogotipo {
+    width: 80px;
+    height: 80px;
+    border-radius: 127px;
+    position: absolute;
+    top: calc(50% - 40px);
+    left: calc(50% - 40px);
+}
