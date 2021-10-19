@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- <script>
+
+    var datos = [];
+    datos = ['john','pablo','pedro',0,true,'xx']
+    
+    // // for (let i = 0; i < datos.length; i++) {
+        
+    // //     console.log(datos[i])
+        
+    // }
+
+    for (const key in datos) {
+        console.log(datos[key])
+            
+        }
+    
+
+
+</script> -->
+
+<script>
+
+    var datos = [];
+    // Agregar datos al array
+    datos.push('john')
+    datos.push('juan')
+    datos.push('pedro')
+    datos.push(1)
+    datos.push(true)
+    // Modificar datos del Array
+    datos [2] = 'Pedro Perez'
+
+    //Eliminar datos
+    // datos.splice(3,1)
+
+    //Buscar Registros dentro del array
+
+    // for (let i = 0; i < datos.length; i++) {
+        
+    //     if (datos[i] == 'Pedro Perez'){
+    //         console.log(i)
+            
+    //     }
+        
+    // }
+
+    var posicion = datos.indexOf('juan')
+        //Una solda dimensión
+        console.log(posicion)
+
+    //Imprimir todo el array
+    console.log(datos)
+
+    var datosmulti = [];
+
+        //Llenado de array multidimensional
+    datosmulti.push({nombre:'john',edad:35})
+    datosmulti.push({nombre:'juan',edad:25})
+    datosmulti.push({nombre:'pedro',edad:18})
+    datosmulti.push({nombre:'pablo',edad:40})
+
+    console.log(datosmulti[1].nombre)
+
+    //Modificar un array multidimensional
+    datosmulti[1].edad = 100
+    datosmulti[1].nombre = 'JUAN'
+
+    //ELIMINAR
+    datosmulti.splice(1,1)
+
+        console.log(datosmulti)
+
+    
+
+
+</script>
+
+
+</body>
+</html>
