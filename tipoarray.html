@@ -38,7 +38,7 @@
     datos.push(1)
     datos.push(true)
     // Modificar datos del Array
-    datos [2] = 'Pedro Perez'
+    datos[2] = 'Pedro Perez'
 
     //Eliminar datos
     // datos.splice(3,1)
@@ -80,7 +80,34 @@
 
         console.log(datosmulti)
 
-    
+    //ELIMINAR DATOS DEL ÚLTMO REGISTRO
+    datosmulti.pop()
+
+    console.log(datosmulti)
+
+    var prueba = [0,1,2,3,4,5,6]
+        console.log(prueba)
+    //CAMBAIR EL ORDE, LO INVIERTE, REVERSE    
+        console.log(prueba.reverse())
+
+    var frutas = ['mazana','pera','durazno']
+    var verduras = ['zanahoria','lechiga','brocoli'] 
+    //VERIFICAR SI UN ELEMENTO ESTA DENTRO DEL ARRAY// RESPONDE TRUE O FALSE
+    var temp = frutas.includes('pera')
+    //UNIR DOS ELEMENTOS O ARRAY
+    var union = frutas.concat(verduras)
+    console.log(union)
+
+    //FILTRAR INFORMACIÓN
+    var filtrado = union.filter(function(item){return item == 'brocoli'})
+    console.log(filtrado)
+
+    var misdatos = union.join('/')
+    console.log(misdatos)
+
+
+
+
 
 
 </script>
